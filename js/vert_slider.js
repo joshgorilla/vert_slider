@@ -1,5 +1,5 @@
-$(function () {
-    $('#accordion > li').hover(
+jQuery(document).ready(function($) {
+    $('#vert-slider > li').hover(
         function () {
             var $this = $(this);
             $this.stop().animate({'height': '300px'}, 500);
